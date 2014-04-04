@@ -1,0 +1,10 @@
+---
+applications:
+- name: hello-rails4
+  memory: 512M
+  instances: 1
+  host: hello-rails4
+  domain: cfapps.io
+  path: .
+  services:
+  - postgresql-service
